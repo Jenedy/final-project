@@ -1,0 +1,83 @@
+body{
+    background: linear-gradient(to right, #b8640f, #138000); 
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    justify-content: space-between;
+    background-color: rgb(78, 174, 0);
+    border-radius: 1vh;
+    padding: 0.7vw;
+}
+img{
+    height: 15vh;
+    width: 9vw;
+    
+}
+h3{
+    text-align: center;
+}
+.mmsu{
+    font-weight: bold;
+    font-size: 5vh;
+    margin-top: 4vh;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.nav{
+    font-size: 3vh;
+    margin-top: 5vh;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a{
+    margin-left: 2vw;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 3vh;
+    
+}
+a:hover{
+    background-color: cadetblue;
+    padding: 1.8vh;
+    border-radius: 1vh;
+}
+.abt{
+    display: flex;
+    font-size: 2.5vh;
+    
+}
+.info{
+    height: 100%;
+    width: 60vw;
+    margin:auto;
+    margin-top: 10vh;
+    background: linear-gradient(to right, #138000, #b8640f); 
+    padding: 3vw;
+    border-radius: 2vw;
+    color: antiquewhite;
+}
+
+@media (max-width: 800px) {
+    .head{
+        flex-direction: column;
+        height: 40vh;
+        text-align: center;
+    }
+
+    img{
+        height: 20vh;
+        width: 15vw;
+        
+    }
+}
+@media (max-width: 542px){
+    .head{
+        height: 30vh;
+        justify-content: unset;
+    }
+    img{
+        height: 0;
+        width: 0; 
+    }
+}

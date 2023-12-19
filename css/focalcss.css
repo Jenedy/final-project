@@ -1,0 +1,131 @@
+
+body{
+        background: linear-gradient(to right, #b8640f, #138000); 
+    }
+.head{
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    justify-content: space-between;
+    background-color: rgb(78, 174, 0);
+    border-radius: 1vh;
+    padding: 0.7vw;
+}
+img{
+    width: 20vw;
+    height: 50vh;
+    
+}
+.mmsu{
+    font-weight: bold;
+    font-size: 5vh;
+    margin-top: 4vh;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.nav{
+    font-size: 3vh;
+    margin-top: 5vh;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nv{
+    margin-left: 2vw;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 3vh;
+}
+.nv:hover{
+    background-color: cadetblue;
+    padding: 1.8vh;
+    border-radius: 1vh;
+    font-size: 3vh;
+    font-weight: normal;
+
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-size: 2vh;
+    font-weight: bold;
+}
+a:hover{
+    color: black;
+    font-size: 2.1vh;
+}
+
+.fp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    
+}
+.r2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    
+}
+.r3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    
+}
+
+@media (max-width: 800px){
+    .head{
+        flex-direction: column;
+        height: 20vh;
+        text-align: center;
+        justify-content: unset;
+    }
+    .fp{
+        flex-direction: column;
+        align-items: center;
+    }
+    .r2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .r3{
+        flex-direction: column;
+        align-items: center;
+    }
+    img{
+        width: 50vw;
+        height: 60vh;
+    }
+    a{
+        font-size: 2.5vh;
+    }
+    
+}
+@media (max-width: 542px){
+    .head{
+        flex-direction: column;
+        height: 30vh;
+        text-align: center;
+        justify-content: unset;
+    }
+    .fp{
+        flex-direction: column;
+        align-items: center;
+    }
+    .r2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .r3{
+        flex-direction: column;
+        align-items: center;
+    }
+    img{
+        width: 70vw;
+        height: 90vh;
+    }
+    a{
+        font-size: 2.5vh;
+    }
+}
